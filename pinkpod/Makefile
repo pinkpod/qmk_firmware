@@ -17,3 +17,7 @@ sonnet.%:
 PHONY: gingham.%
 gingham.%:
 	$(MAKE) $* kb=yiancardesigns/gingham
+
+PHONY: loop.%
+loop.%:
+	$(MAKE) $* kb=mode/m80v2/m80v2s
